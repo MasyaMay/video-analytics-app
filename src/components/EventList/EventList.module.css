@@ -1,0 +1,26 @@
+.eventList {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.eventListContainer {
+  height: 40vh;
+  overflow-y: scroll;
+}
+
+.eventListItem {
+  display: block;
+  padding: 5px;
+  cursor: pointer;
+  margin: 8px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+}
+
+.eventListItem:hover {
+  background-color: antiquewhite;
+}
